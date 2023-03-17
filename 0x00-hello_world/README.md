@@ -3,3 +3,4 @@
 1 : compile a c file
 2 : assembler a c file
 3 : compiles a C file and creates an executable named cisfun.
+Program that prints exactly a phrase
