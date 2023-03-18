@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Print last generated number depends to his value
- *
- *
- * Return: Always 0
- */
+* main - Print last generated number depends to his value
+*
+*
+* Return: Always 0
+*/
 int main(void)
 {
 	int n;
