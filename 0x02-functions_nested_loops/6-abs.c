@@ -8,6 +8,6 @@ int _abs(int d)
 return (d * 1)
 else if (d < 0)
 return (d * -1)
-else 
+else
 return (0)
 }
