@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-/**
  * add - number + number
  * @a: first number input
  * @b: second number input
