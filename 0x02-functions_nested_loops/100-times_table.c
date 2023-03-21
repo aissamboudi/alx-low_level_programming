@@ -5,18 +5,18 @@
  */
 void print_times_table(int n)
 {
-int n, row, prod;
+int d, row, prod;
 
 if (n >= 0 && n <= 15)
 {
-for (n = 0; n <= n; n++)
+for (d = 0; d <= n; d++)
 {
 _putchar('0');
 for (row = 1; row <= n; row++)
 {
 _putchar(',');
 _putchar(' ');
-prod = n * row;
+prod = d * row;
 if (prod <= 99)
 _putchar(' ');
 if (prod <= 9)
