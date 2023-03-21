@@ -4,14 +4,20 @@
  *
  * Return: Always 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	char *str = "abcdefghijklmnopqrstuvwxyz";
-	while(*str)
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+
+        while (*str)
+        {
+                _putchar(*str);
+                str++;
+        }
+        _putchar('\n');
+}
+
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }
