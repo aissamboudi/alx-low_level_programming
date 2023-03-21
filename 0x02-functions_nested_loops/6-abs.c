@@ -7,9 +7,9 @@
 int _abs(int d)
 {
 if (d > 0)
-return (d * 1)
+return (d * 1);
 else if (d < 0)
-return (d * -1)
+return (d * -1);
 else
-return (0)
+return (0);
 }
