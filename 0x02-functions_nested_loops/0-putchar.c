@@ -1,11 +1,19 @@
-#include <stdio.h>
+#include "_putchar.c"
+#include "main.h"
 /**
- * main - Printf __putchar
+ * main - print _putchar
  *
  * Return 0
  */
 int main(void)
 {
-	printf("_putchar");
+	char *sh ="_putchar";
+
+	while(*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 	return (0);
 }
