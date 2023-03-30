@@ -11,13 +11,13 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int cpt = 0;
 
-	while (i < n && *(src + cpt))
+	while (cpt < n && *(src + cpt))
 	{
 		*(dest + cpt) = *(src + cpt);
-		i++;
+		cpt++;
 	}
 
-	while (i < n)
+	while (cpt < n)
 	{
 		*(dest + cpt) = '\0';
 		cpt++;
