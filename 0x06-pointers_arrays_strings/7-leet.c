@@ -18,6 +18,7 @@ char *leet(char *s)
 			if (*(s + cpt) == *(alp + i))
 				*(s + cpt) = *(num + i);
 		}
+		cpt++;
 	}
 
 	return (s);
