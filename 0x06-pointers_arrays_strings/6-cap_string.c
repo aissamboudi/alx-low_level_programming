@@ -22,6 +22,8 @@ char *cap_string(char *s)
 			cpt++;
 			if (*(s + cpt) >= 97 && *(s + cpt) <= 122)
 				*(s + cpt) = *(s + cpt) - 32;
+			else
+				cpt--;
 		}
 		cpt++;
 	}
