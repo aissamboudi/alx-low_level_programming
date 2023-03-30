@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * _strcat - concat two
  * @dest: first string
@@ -7,15 +7,15 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	while (*dest)
+	int cpt = 0;
+	int cpt2 = 0;
+
+	while (*(dest + ++cpt));
+	while (*(src + cpt2))
 	{
-		if (*(dest + 1) == '\0')
-		{
-			*(dest + 1) = *src;
-			*(dest + 1) = '\0';
-			src++;
-		}
-		dest++;
+		*(dest + cpt) = *(src + cpt2);
+		cpt++;
+		cpt2++;	
 	}
 	return (dest);
 }
