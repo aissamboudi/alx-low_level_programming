@@ -13,12 +13,11 @@ char *leet(char *s)
 
 	while (*(s + cpt))
 	{
-		for(int i = 0; i < 10; i++)
+		for (int i = 0; i < 10; i++)
 		{
 			if (*(s + cpt) == *(alp + i))
 				*(s + cpt) = *(num + i);
-		} 
-		
+		}
 	}
 
 	return (s);
