@@ -20,5 +20,6 @@ char *_strcat(char *dest, char *src)
 		cpt++;
 		cpt2++;
 	}
+	*(dest + cpt) = '\0';
 	return (dest);
 }
