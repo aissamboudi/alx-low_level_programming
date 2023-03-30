@@ -9,7 +9,6 @@ char *_strcat(char *dest, char *src)
 {
 	while(*dest)
 	{
-		printf("%s\n",dest);
                 if(*dest == '\0')
                 {
                         *dest = *src;
