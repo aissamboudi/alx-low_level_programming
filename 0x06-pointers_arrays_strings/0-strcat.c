@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 /**
  * _strcat - concat two
  * @dest: first string
@@ -9,9 +9,9 @@ char *_strcat(char *dest, char *src)
 {
 	while (*dest)
 	{
-		if (*dest == '\0')
+		if (*(dest + 1) == '\0')
 		{
-			*dest = *src;
+			*(dest + 1) = *src;
 			*(dest + 1) = '\0';
 			src++;
 		}
