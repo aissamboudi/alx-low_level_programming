@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	char s1[98] = "Hello";
-	char s2[] = "World!\n";
-	char *ptr;
+	char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
+	char *p;
 
-	ptr = _strcat(s1, s2);
-	printf("%s", ptr);
+	p = leet(s);
+	printf("%s", p);
+	printf("%s", s);
 	return (0);
 }
