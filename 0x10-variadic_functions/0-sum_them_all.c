@@ -6,6 +6,7 @@
  * @n: Count of args
  * Return: sum of params
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list p_list;
