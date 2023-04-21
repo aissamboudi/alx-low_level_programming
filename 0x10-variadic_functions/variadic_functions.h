@@ -12,7 +12,7 @@ void print_all(const char * const format, ...);
  */
 typedef struct _format
 {
-	char type;
+        char type;
 	void (*func)(va_list);
 } _format;
 
