@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * print_dlistint: print dlistint
  * @h: head of list
@@ -17,6 +16,5 @@ size_t print_dlistint(const dlistint_t *h)
 		cpt++;
 		current = current->next;
 	}
-
 	return (cpt);
 }
